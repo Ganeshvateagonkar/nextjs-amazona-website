@@ -3,6 +3,7 @@ const data = {
     {
       name: 'Free Shirt',
       category: 'Shirts',
+      slug: 'free-shirt',
       image: '/images/shirt1.jpg',
       price: 400,
       brand: 'Nike',
@@ -13,7 +14,8 @@ const data = {
     },
     {
       name: 'Fit Shirt',
-      category: 'Shirts',
+      category: 'fit-shirt',
+      slug: 'free-shirt',
       image: '/images/shirt2.jpg',
       price: 500,
       brand: 'Adidas',
@@ -25,6 +27,7 @@ const data = {
     {
       name: 'Slim Shirt',
       category: 'Shirts',
+      slug: 'slim-shirt',
       image: '/images/shirt3.jpg',
       price: 700,
       brand: 'Raymond',
@@ -36,6 +39,7 @@ const data = {
     {
       name: 'Goalf Pants',
       category: 'pants',
+      slug: 'goalf-pants',
       image: '/images/pants1.jpg',
       price: 450,
       brand: 'Oliver',
@@ -47,6 +51,7 @@ const data = {
     {
       name: 'Fit Pants',
       category: 'Pants',
+      slug: 'fit-pants',
       image: '/images/pants2.jpg',
       price: 400,
       brand: 'Zara',
@@ -58,6 +63,7 @@ const data = {
     {
       name: 'Classic Pants',
       category: 'Pants',
+      slug: 'classic-pants',
       image: '/images/pants3.jpg',
       price: 400,
       brand: 'Casely',
